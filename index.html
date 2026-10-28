@@ -225,7 +225,50 @@ footer{text-align:center; padding:18px; font-size:11px; color:var(--gray-mid);}
 .acd-note{margin:0 20px 18px;font-size:12px;color:var(--gray-mid);line-height:1.5;}
 .acd-qualitor{margin:0 20px 16px;background:var(--gray-light);border-radius:8px;padding:12px 16px;font-size:13px;line-height:1.55;}
 .acd-qualitor b{color:var(--claro-red);}
-@media(max-width:900px){.ac-rail{display:block;width:auto;margin:16px 20px 8px;} .ac-step{display:block;margin-bottom:8px;}}
+/* Frente 3 — Desconexão · Comunicado Reversa: Solicitações por Prioridade */
+.acp-hero{background:linear-gradient(120deg,#8E040C 0%,#E30613 68%,#FF5A36 125%);}
+.acp-hero .ac-slogan{color:var(--gray-dark);text-transform:none;letter-spacing:0;font-size:13.5px;line-height:1.6;font-weight:700;}
+.acp-hero .ac-slogan b{color:var(--claro-red);text-transform:uppercase;font-size:11.5px;letter-spacing:1px;display:block;margin-top:6px;}
+.acp-hero .ac-slogan b:first-child{margin-top:0;}
+.prio .ac-head{background:linear-gradient(135deg,#B4050F,#E30613);}
+.prio .ac-num{color:var(--claro-red);}
+.acp-flow{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start;padding:16px 20px 8px;}
+.acp-era{flex:0 1 230px;background:var(--gray-light);border-radius:12px;padding:14px;text-align:center;font-size:13px;line-height:1.5;}
+.acp-era .acp-lbl{background:var(--gray-dark);}
+.acp-lbl{display:inline-block;background:var(--claro-red);color:#fff;font-weight:800;font-size:12px;letter-spacing:1px;text-transform:uppercase;padding:5px 16px;border-radius:6px;margin-bottom:10px;}
+.acp-arrow{flex:0 0 28px;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:800;color:var(--claro-red);}
+.acp-new{flex:1 1 440px;background:#FFF7F5;border:1px solid #F5C9C2;border-radius:12px;padding:14px;}
+.acp-sol{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:10px 0;}
+.acp-sol+.acp-sol{border-top:1px dashed #E8B4AC;}
+.acp-sol-n{flex:none;width:40px;height:40px;border-radius:50%;background:var(--claro-red);color:#fff;font-weight:800;font-size:17px;display:flex;align-items:center;justify-content:center;}
+.acp-sol-t{flex:1 1 200px;font-size:13px;line-height:1.45;}
+.acp-sol-t b{display:block;font-size:13.5px;}
+.acp-sol-t small{color:var(--claro-red);font-weight:700;}
+.acp-nfs{flex:1 1 230px;display:flex;flex-direction:column;gap:6px;}
+.acp-nf{background:#fff;border:1px solid #F0C8C2;border-left:4px solid var(--claro-red);border-radius:8px;padding:6px 10px;font-size:12.5px;line-height:1.35;}
+.acp-nf b{color:var(--claro-red);}
+.acp-nf.acc{border-left-color:var(--amber);} .acp-nf.acc b{color:#B35A00;}
+.acp-imp{margin:8px 20px 18px;display:flex;flex-wrap:wrap;gap:12px;}
+.acp-imp>div{flex:1 1 300px;background:var(--red-bg);border-left:5px solid var(--claro-red);border-radius:8px;padding:11px 14px;font-size:13px;line-height:1.5;}
+.acp-imp b{color:var(--claro-red);}
+.acp-tech{display:flex;flex-wrap:wrap;gap:14px;padding:16px 20px 8px;}
+.acp-tcol{flex:1 1 300px;border-radius:12px;overflow:hidden;border:1px solid var(--border);background:#fff;}
+.acp-th{padding:10px 14px;color:#fff;font-weight:800;font-size:14px;letter-spacing:.5px;text-transform:uppercase;display:flex;align-items:center;gap:8px;}
+.acp-tcol.p1 .acp-th{background:linear-gradient(135deg,#B4050F,#E30613);}
+.acp-tcol.p2 .acp-th{background:linear-gradient(135deg,#D9480F,#F57C00);}
+.acp-chips{display:flex;flex-wrap:wrap;gap:8px;padding:12px 14px;}
+.acp-chip{background:var(--gray-light);border-radius:16px;padding:5px 12px;font-size:12.5px;font-weight:700;border:2px solid transparent;}
+.acp-tcol.p1 .acp-chip{background:#FDECEA;} .acp-tcol.p2 .acp-chip{background:#FFF3E0;}
+.acp-chip.hit{border-color:var(--claro-red);box-shadow:0 0 0 2px rgba(227,6,19,.15);}
+.acp-chip.low{font-style:italic;}
+.acp-rule{padding:0 14px 12px;font-size:12.5px;font-weight:700;color:var(--gray-dark);}
+.acp-rule span{color:var(--claro-red);}
+.acp-codes{margin:4px 20px 18px;background:var(--gray-light);border-radius:8px;padding:11px 16px;font-size:13px;line-height:1.55;}
+.acp-codes b{color:var(--claro-red);}
+.acp-close{margin:0 20px 20px;text-align:center;background:linear-gradient(90deg,#FDECEA,#fff,#FDECEA);border-radius:10px;padding:12px;font-weight:800;font-size:15px;}
+.acp-close span{color:var(--claro-red);}
+#acpKpis{grid-template-columns:repeat(3,1fr);}
+@media(max-width:900px){#acpKpis{grid-template-columns:repeat(2,1fr);} .ac-rail{display:block;width:auto;margin:16px 20px 8px;} .ac-step{display:block;margin-bottom:8px;} .acp-arrow{flex:1 1 100%;transform:rotate(90deg);height:28px;}}
 @media(max-width:700px){.ac-hero h2{font-size:25px;} .ac-owners{margin-left:0;}}
 </style>
 </head>
@@ -364,21 +407,26 @@ footer{text-align:center; padding:18px; font-size:11px; color:var(--gray-mid);}
       <option value="Todas">Todas as frentes e ações</option>
       <option value="M">Matriz de Ganhos (Carlos Beraldo)</option>
       <option value="D">Desconexão — Melhorias Stefanini</option>
+      <option value="P">Desconexão — Solicitações por Prioridade (Jeferson Teixeira)</option>
       <optgroup label="Matriz de Ganhos">
         <option value="1">1 · Redução de SLA</option><option value="2">2 · Eficiência no abastecimento</option><option value="3">3 · Redução do backlog</option><option value="4">4 · Integração E2E</option><option value="5">5 · Inteligência operacional</option>
       </optgroup>
       <optgroup label="Desconexão — Melhorias Stefanini">
         <option value="D1">D1 · Integração Stefanini × Catalde</option><option value="D2">D2 · Automação e digitalização</option><option value="D3">D3 · Otimização do fluxo operacional</option><option value="D4">D4 · Governança, qualidade e controle</option><option value="D5">D5 · Produtividade e escala</option>
       </optgroup>
+      <optgroup label="Desconexão — Solicitações por Prioridade">
+        <option value="P1">P1 · Separação das solicitações no Qualitor</option><option value="P2">P2 · Classificação por prioridade</option><option value="P3">P3 · Regra dos acessórios</option><option value="P4">P4 · Objetivo e material de apoio</option>
+      </optgroup>
     </select></div>
     <div class="filter-group"><label>Status</label><select id="aStatus" onchange="acRender()"><option value="Todos">Aplicadas e em ação</option><option value="apl">Aplicadas</option><option value="acao">Em ação</option></select></div>
-    <div class="filter-group"><label>Camada de leitura</label><select id="aCamada" onchange="acRender()"><option value="Todas">Ações, ganho e impacto</option><option value="acoes">Principais ações</option><option value="ganho">Principal ganho</option><option value="impacto">Impacto no negócio</option></select></div>
+    <div class="filter-group"><label>Camada de leitura</label><select id="aCamada" onchange="acRender()"><option value="Todas">Ações, ganho e impacto</option><option value="acoes">Principais ações</option><option value="ganho">Principal ganho / O que muda</option><option value="impacto">Impacto / Na prática</option></select></div>
     <div class="filter-group"><label>Visualização</label><select id="aVis" onchange="acRender()"><option value="cards">Cartões</option><option value="matriz">Matriz (tabela)</option></select></div>
-    <div class="filter-group"><label>Buscar palavra-chave</label><input type="text" id="aBusca" placeholder="ex.: backlog, Qualitor, N491" oninput="acRender()" autocomplete="off"></div>
+    <div class="filter-group"><label>Buscar palavra-chave</label><input type="text" id="aBusca" placeholder="ex.: backlog, Qualitor, Mesh, acessórios" oninput="acRender()" autocomplete="off"></div>
     <button class="clear-btn" onclick="acClear()">✕ Limpar filtros</button>
     <div class="ac-owners" id="acOwners">
       <div class="ac-owner" id="acOwnerM">👤 Responsável: Carlos Beraldo</div>
-      <div class="ac-owner" id="acOwnerD">👤 Responsáveis (Desconexão): Jeferson Teixeira e Carlos Henrique</div>
+      <div class="ac-owner" id="acOwnerD">👤 Melhorias Stefanini: Jeferson Teixeira e Carlos Henrique</div>
+      <div class="ac-owner" id="acOwnerP">👤 Solicitações por Prioridade: Jeferson Teixeira</div>
     </div>
   </div>
   <div class="container" style="padding:0 0 40px;">
@@ -410,7 +458,7 @@ footer{text-align:center; padding:18px; font-size:11px; color:var(--gray-mid);}
         <div class="ac-concl" id="acConcl"></div>
       </div>
     </div>
-    <div class="acd-divider" id="acDivD" style="display:none">Frente 2 · Desconexão — Jeferson Teixeira e Carlos Henrique</div>
+    <div class="acd-divider" id="acDivD" style="display:none">Frente 2 · Desconexão — Melhorias Stefanini — Jeferson Teixeira e Carlos Henrique</div>
     <div id="acDescWrap" class="desc">
       <div class="ac-hero acd-hero" id="acdHero">
         <div class="ac-hero-left">
@@ -433,20 +481,72 @@ footer{text-align:center; padding:18px; font-size:11px; color:var(--gray-mid);}
         <div id="acdCron"></div>
       </div>
       <div class="panel" id="panel-acd-cards">
-        <div class="panel-header"><div><h2>Ações, ganhos e impacto — Desconexão <span class="period-label" id="acdCardsLabel"></span></h2><p>Para cada processo evoluído: o que foi feito, o principal ganho, o impacto e o status (aplicada / em ação).</p></div></div>
+        <div class="panel-header"><div><h2>Ações, ganhos e impacto — Melhorias Stefanini <span class="period-label" id="acdCardsLabel"></span></h2><p>Para cada processo evoluído: o que foi feito, o principal ganho, o impacto e o status (aplicada / em ação).</p></div></div>
         <div id="acdCards"></div>
       </div>
       <div class="panel" id="panel-acd-close">
-        <div class="panel-header"><div><h2>Resultado em uma linha — Desconexão</h2><p>O resultado de cada processo, em uma frase.</p></div></div>
+        <div class="panel-header"><div><h2>Resultado em uma linha — Melhorias Stefanini</h2><p>O resultado de cada processo, em uma frase.</p></div></div>
         <div class="ac-top" id="acdTop"></div>
         <div class="ac-concl" id="acdConcl"></div>
+      </div>
+    </div>
+    <div class="acd-divider" id="acDivP" style="display:none">Frente 3 · Desconexão — Solicitações por Prioridade — Jeferson Teixeira</div>
+    <div id="acPrioWrap" class="prio">
+      <div class="ac-hero acp-hero" id="acpHero">
+        <div class="ac-hero-left">
+          <div class="ac-eyebrow">Comunicado &nbsp;—&nbsp; Reversa &nbsp;—&nbsp; Desconexão</div>
+          <h2>Solicitações por Prioridade</h2>
+          <div class="ac-sub">Em vigor a partir de 01/10/2026</div>
+          <p class="ac-tag"><b>Atenção:</b> a separação das reversas, solicitações e emissões das NFs passou por mudanças — serão abertos <b>2 processos no Qualitor + 2 notas fiscais de terminais distintas</b>.</p>
+          <div class="ac-pill-row"><span class="ac-pill">Qualitor</span><span class="ac-pill">Notas fiscais</span><span class="ac-pill">Prioridade 1</span><span class="ac-pill">Prioridade 2</span><span class="ac-pill">Acessórios</span></div>
+        </div>
+        <div class="ac-slogan"><b>Área</b>Desconexão<b>Responsável</b>Jeferson Teixeira<b>Vigência</b>01/10/2026<b>Mensagem</b>Contamos com a colaboração de todos!</div>
+      </div>
+      <div class="cards-grid four" id="acpKpis"></div>
+      <div class="panel" id="panel-acp-story">
+        <div class="panel-header"><div><h2>Uma solicitação, dois processos: 4 passos</h2><p>Do que mudou no Qualitor à regra dos acessórios. Clique em um capítulo para destacá-lo (equivale ao filtro “Frente / Ação”).</p></div></div>
+        <div class="ac-rail" id="acpRail"></div>
+        <div class="ac-story" id="acpStory"></div>
+      </div>
+      <div class="panel" id="panel-acp-flow">
+        <div class="panel-header"><div><h2>Como era × Como ficou</h2><p>Estrutura das solicitações no Qualitor e das notas fiscais de devolução.</p></div></div>
+        <div class="acp-flow">
+          <div class="acp-era"><span class="acp-lbl">Como era?</span><div style="font-size:34px;line-height:1.1;">🖥️</div><div>Solicitação Qualitor:<br><b style="color:var(--claro-red);">Terminais e Acessórios</b></div></div>
+          <div class="acp-arrow">»</div>
+          <div class="acp-new">
+            <div style="text-align:center;"><span class="acp-lbl">Como ficou?</span></div>
+            <div class="acp-sol"><div class="acp-sol-n">1º</div><div class="acp-sol-t"><b>1ª solicitação Qualitor</b><small>(2 notas fiscais de devolução)</small></div>
+              <div class="acp-nfs"><div class="acp-nf"><b>NF 1</b> — Terminais Prioridade 1</div><div class="acp-nf acc"><b>NF 2</b> — Acessórios (todas as tecnologias)</div></div></div>
+            <div class="acp-sol"><div class="acp-sol-n">2º</div><div class="acp-sol-t"><b>2ª solicitação Qualitor</b><small>(1 nota fiscal de devolução)</small></div>
+              <div class="acp-nfs"><div class="acp-nf"><b>NF 1</b> — Terminais Prioridade 2</div></div></div>
+          </div>
+        </div>
+        <div class="acp-imp">
+          <div><b>Importante:</b> deverão ser abertos <b>2 processos distintos</b> no Qualitor, com <b>2 notas fiscais de devolução de terminais separadas</b>, sendo uma para os Terminais Prioridade 1 e outra para os Terminais Prioridade 2.</div>
+          <div><b>Acessórios:</b> todos os acessórios, independentemente da tecnologia, devem ser incluídos <b>exclusivamente na 1ª solicitação e na NF 2</b> (acessórios).</div>
+        </div>
+      </div>
+      <div class="panel" id="panel-acp-tech">
+        <div class="panel-header"><div><h2>Tecnologias por prioridade <span class="period-label" id="acpTechLabel"></span></h2><p>Em qual solicitação cada tecnologia de terminal é incluída. A busca por palavra-chave destaca a tecnologia encontrada.</p></div></div>
+        <div id="acpTech"></div>
+        <div class="acp-codes"><b>Lista de códigos:</b> a relação dos códigos dos materiais foi enviada junto ao comunicado (a lista em si não consta do comunicado exibido).</div>
+      </div>
+      <div class="panel" id="panel-acp-cards">
+        <div class="panel-header"><div><h2>O que mudou na prática — Solicitações por Prioridade <span class="period-label" id="acpCardsLabel"></span></h2><p>Para cada ação: o que foi feito, o que muda, o que isso significa na prática e o status.</p></div></div>
+        <div id="acpCards"></div>
+      </div>
+      <div class="panel" id="panel-acp-close">
+        <div class="panel-header"><div><h2>Resultado em uma linha — Solicitações por Prioridade</h2><p>A mudança de cada passo, em uma frase.</p></div></div>
+        <div class="ac-top" id="acpTop"></div>
+        <div class="ac-concl" id="acpConcl"></div>
+        <div class="acp-close">Contamos com a <span>colaboração</span> de todos!</div>
       </div>
     </div>
     <div class="panel" id="acEmpty" style="display:none"><div class="ac-grid"><div class="ac-empty">Nenhuma ação encontrada para os filtros selecionados. Use “Limpar filtros”.</div></div></div>
   </div>
 </div>
 
-<footer>Claro | Logística de Reversa &nbsp;·&nbsp; Fontes: Analitico_Tempo_Total_Jan2025_Ago2026.xlsx, Análise_por_Mês.xlsx, Reversa_BI (Meta 2027 por CD), Analitico_Tempo_Total 5.xlsx (%Rateio Forecast), Matriz de Ganhos da Logística Reversa (Carlos Beraldo), Resumo das Melhorias STEFANINI (Carlos Henrique / Jeferson Teixeira — Desconexão) &nbsp;·&nbsp; Dashboard gerado automaticamente</footer><script>const RAW_DATA = [{"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 1, "value": 58.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 2, "value": 51.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 3, "value": 50.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 4, "value": 56.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 5, "value": 54.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 6, "value": 49.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 7, "value": 50.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 8, "value": 47.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 9, "value": 47.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 10, "value": 47.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 11, "value": 45.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 12, "value": 41.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 1, "value": 44.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 2, "value": 32.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 3, "value": 33.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 4, "value": 32.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 5, "value": 36.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 6, "value": 37.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 7, "value": 34.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 8, "value": 33.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 1, "value": 26.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 2, "value": 24.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 3, "value": 30.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 4, "value": 31.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 5, "value": 35.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 6, "value": 27.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 7, "value": 32.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 8, "value": 29.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 9, "value": 26.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 10, "value": 25.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 11, "value": 25.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 12, "value": 24.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 1, "value": 24.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 2, "value": 21.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 3, "value": 21.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 4, "value": 26.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 5, "value": 25.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 6, "value": 22.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 7, "value": 21.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 8, "value": 21.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 1, "value": 44.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 2, "value": 45.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 3, "value": 34.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 4, "value": 44.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 5, "value": 41.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 6, "value": 42.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 7, "value": 39.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 8, "value": 38.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 9, "value": 38.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 10, "value": 38.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 11, "value": 42.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 12, "value": 47.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 1, "value": 41.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 2, "value": 45.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 3, "value": 44.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 4, "value": 45.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 5, "value": 45.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 6, "value": 38.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 7, "value": 38.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 8, "value": 33.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 1, "value": 101.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 2, "value": 83.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 3, "value": 103.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 4, "value": 104.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 5, "value": 104.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 6, "value": 80.5}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 7, "value": 81.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 8, "value": 73.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 9, "value": 78.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 10, "value": 66.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 11, "value": 59.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 12, "value": 70.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 1, "value": 64.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 2, "value": 55.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 3, "value": 62.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 4, "value": 62.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 5, "value": 70.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 6, "value": 74.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 7, "value": 59.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 8, "value": 53.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 1, "value": 36.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 2, "value": 20.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 3, "value": 33.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 4, "value": 40.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 5, "value": 60.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 6, "value": 49.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 7, "value": 50.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 8, "value": 73.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 9, "value": 63.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 10, "value": 51.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 11, "value": 49.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 12, "value": 53.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 1, "value": 25.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 2, "value": 22.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 3, "value": 21.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 4, "value": 32.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 5, "value": 33.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 6, "value": 25.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 7, "value": 19.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 8, "value": 20.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 1, "value": 57.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 2, "value": 58.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 3, "value": 63.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 4, "value": 70.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 5, "value": 69.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 6, "value": 70.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 7, "value": 67.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 8, "value": 58.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 9, "value": 60.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 10, "value": 59.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 11, "value": 53.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 12, "value": 53.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 1, "value": 56.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 2, "value": 54.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 3, "value": 54.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 4, "value": 58.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 5, "value": 66.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 6, "value": 62.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 7, "value": 51.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 8, "value": 47.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 1, "value": 14.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 2, "value": 14.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 3, "value": 17.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 4, "value": 14.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 5, "value": 14.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 6, "value": 14.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 7, "value": 23.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 8, "value": 20.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 9, "value": 18.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 10, "value": 20.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 11, "value": 19.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 12, "value": 20.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 1, "value": 19.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 2, "value": 21.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 3, "value": 21.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 4, "value": 21.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 5, "value": 20.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 6, "value": 17.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 7, "value": 14.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 8, "value": 15.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 1, "value": 58.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 2, "value": 57.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 3, "value": 55.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 4, "value": 52.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 5, "value": 48.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 6, "value": 52.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 7, "value": 43.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 8, "value": 47.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 9, "value": 47.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 10, "value": 43.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 11, "value": 45.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 12, "value": 48.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 1, "value": 40.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 2, "value": 39.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 3, "value": 44.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 4, "value": 48.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 5, "value": 48.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 6, "value": 49.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 7, "value": 42.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 8, "value": 43.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 1, "value": 63.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 2, "value": 62.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 3, "value": 57.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 4, "value": 62.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 5, "value": 49.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 6, "value": 53.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 7, "value": 58.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 8, "value": 53.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 9, "value": 53.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 10, "value": 56.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 11, "value": 52.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 12, "value": 57.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 1, "value": 59.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 2, "value": 48.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 3, "value": 51.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 4, "value": 62.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 5, "value": 56.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 6, "value": 49.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 7, "value": 44.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 8, "value": 42.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 1, "value": 32.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 2, "value": 28.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 3, "value": 31.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 4, "value": 28.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 5, "value": 30.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 6, "value": 23.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 7, "value": 26.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 8, "value": 24.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 9, "value": 27.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 10, "value": 27.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 11, "value": 23.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 12, "value": 23.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 1, "value": 29.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 2, "value": 25.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 3, "value": 26.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 4, "value": 31.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 5, "value": 35.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 6, "value": 25.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 7, "value": 22.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 8, "value": 20.0}];</script>
+<footer>Claro | Logística de Reversa &nbsp;·&nbsp; Fontes: Analitico_Tempo_Total_Jan2025_Ago2026.xlsx, Análise_por_Mês.xlsx, Reversa_BI (Meta 2027 por CD), Analitico_Tempo_Total 5.xlsx (%Rateio Forecast), Matriz de Ganhos da Logística Reversa (Carlos Beraldo), Resumo das Melhorias STEFANINI (Carlos Henrique / Jeferson Teixeira — Desconexão), Comunicado Reversa — Solicitações por Prioridade (Jeferson Teixeira — Desconexão) &nbsp;·&nbsp; Dashboard gerado automaticamente</footer><script>const RAW_DATA = [{"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 1, "value": 58.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 2, "value": 51.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 3, "value": 50.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 4, "value": 56.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 5, "value": 54.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 6, "value": 49.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 7, "value": 50.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 8, "value": 47.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 9, "value": 47.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 10, "value": 47.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 11, "value": 45.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2025, "month": 12, "value": 41.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 1, "value": 44.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 2, "value": 32.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 3, "value": 33.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 4, "value": 32.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 5, "value": 36.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 6, "value": 37.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 7, "value": 34.0}, {"cd": "BRASILIA", "regiao": "Centro-Oeste", "year": 2026, "month": 8, "value": 33.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 1, "value": 26.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 2, "value": 24.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 3, "value": 30.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 4, "value": 31.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 5, "value": 35.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 6, "value": 27.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 7, "value": 32.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 8, "value": 29.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 9, "value": 26.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 10, "value": 25.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 11, "value": 25.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2025, "month": 12, "value": 24.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 1, "value": 24.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 2, "value": 21.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 3, "value": 21.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 4, "value": 26.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 5, "value": 25.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 6, "value": 22.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 7, "value": 21.0}, {"cd": "CAMPINAS", "regiao": "Sudeste", "year": 2026, "month": 8, "value": 21.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 1, "value": 44.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 2, "value": 45.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 3, "value": 34.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 4, "value": 44.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 5, "value": 41.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 6, "value": 42.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 7, "value": 39.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 8, "value": 38.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 9, "value": 38.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 10, "value": 38.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 11, "value": 42.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2025, "month": 12, "value": 47.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 1, "value": 41.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 2, "value": 45.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 3, "value": 44.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 4, "value": 45.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 5, "value": 45.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 6, "value": 38.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 7, "value": 38.0}, {"cd": "CONTAGEM", "regiao": "Sudeste", "year": 2026, "month": 8, "value": 33.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 1, "value": 101.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 2, "value": 83.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 3, "value": 103.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 4, "value": 104.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 5, "value": 104.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 6, "value": 80.5}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 7, "value": 81.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 8, "value": 73.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 9, "value": 78.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 10, "value": 66.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 11, "value": 59.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2025, "month": 12, "value": 70.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 1, "value": 64.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 2, "value": 55.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 3, "value": 62.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 4, "value": 62.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 5, "value": 70.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 6, "value": 74.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 7, "value": 59.0}, {"cd": "CURITIBA", "regiao": "Sul", "year": 2026, "month": 8, "value": 53.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 1, "value": 36.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 2, "value": 20.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 3, "value": 33.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 4, "value": 40.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 5, "value": 60.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 6, "value": 49.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 7, "value": 50.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 8, "value": 73.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 9, "value": 63.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 10, "value": 51.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 11, "value": 49.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2025, "month": 12, "value": 53.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 1, "value": 25.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 2, "value": 22.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 3, "value": 21.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 4, "value": 32.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 5, "value": 33.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 6, "value": 25.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 7, "value": 19.0}, {"cd": "BARUERI", "regiao": "Sudeste", "year": 2026, "month": 8, "value": 20.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 1, "value": 57.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 2, "value": 58.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 3, "value": 63.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 4, "value": 70.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 5, "value": 69.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 6, "value": 70.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 7, "value": 67.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 8, "value": 58.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 9, "value": 60.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 10, "value": 59.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 11, "value": 53.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2025, "month": 12, "value": 53.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 1, "value": 56.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 2, "value": 54.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 3, "value": 54.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 4, "value": 58.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 5, "value": 66.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 6, "value": 62.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 7, "value": 51.0}, {"cd": "JABOATAO", "regiao": "Nordeste", "year": 2026, "month": 8, "value": 47.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 1, "value": 14.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 2, "value": 14.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 3, "value": 17.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 4, "value": 14.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 5, "value": 14.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 6, "value": 14.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 7, "value": 23.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 8, "value": 20.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 9, "value": 18.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 10, "value": 20.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 11, "value": 19.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2025, "month": 12, "value": 20.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 1, "value": 19.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 2, "value": 21.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 3, "value": 21.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 4, "value": 21.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 5, "value": 20.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 6, "value": 17.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 7, "value": 14.0}, {"cd": "MANAUS", "regiao": "Norte", "year": 2026, "month": 8, "value": 15.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 1, "value": 58.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 2, "value": 57.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 3, "value": 55.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 4, "value": 52.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 5, "value": 48.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 6, "value": 52.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 7, "value": 43.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 8, "value": 47.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 9, "value": 47.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 10, "value": 43.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 11, "value": 45.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2025, "month": 12, "value": 48.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 1, "value": 40.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 2, "value": 39.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 3, "value": 44.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 4, "value": 48.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 5, "value": 48.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 6, "value": 49.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 7, "value": 42.0}, {"cd": "PALHOCA", "regiao": "Sul", "year": 2026, "month": 8, "value": 43.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 1, "value": 63.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 2, "value": 62.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 3, "value": 57.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 4, "value": 62.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 5, "value": 49.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 6, "value": 53.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 7, "value": 58.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 8, "value": 53.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 9, "value": 53.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 10, "value": 56.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 11, "value": 52.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2025, "month": 12, "value": 57.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 1, "value": 59.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 2, "value": 48.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 3, "value": 51.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 4, "value": 62.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 5, "value": 56.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 6, "value": 49.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 7, "value": 44.0}, {"cd": "PORTO ALEGRE", "regiao": "Sul", "year": 2026, "month": 8, "value": 42.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 1, "value": 32.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 2, "value": 28.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 3, "value": 31.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 4, "value": 28.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 5, "value": 30.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 6, "value": 23.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 7, "value": 26.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 8, "value": 24.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 9, "value": 27.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 10, "value": 27.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 11, "value": 23.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2025, "month": 12, "value": 23.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 1, "value": 29.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 2, "value": 25.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 3, "value": 26.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 4, "value": 31.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 5, "value": 35.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 6, "value": 25.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 7, "value": 22.0}, {"cd": "RIO DE JANEIRO", "regiao": "Sudeste", "year": 2026, "month": 8, "value": 20.0}];</script>
 
 <script>
 const MONTH_NAMES = ["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
@@ -825,7 +925,8 @@ async function exportPDF(){
       const isVis = id => { const e=document.getElementById(id); return !!e && e.offsetParent!==null; };
       const groups = [
         ['acHero','acKpis','panel-ac-story'], ['panel-ac-cards','panel-ac-close'],
-        ['acdHero','acdKpis','panel-acd-story'], ['panel-acd-cron','panel-acd-cards'], ['panel-acd-close']
+        ['acdHero','acdKpis','panel-acd-story'], ['panel-acd-cron','panel-acd-cards'], ['panel-acd-close'],
+        ['acpHero','acpKpis','panel-acp-story'], ['panel-acp-flow','panel-acp-tech'], ['panel-acp-cards','panel-acp-close']
       ].map(g=>g.filter(isVis)).filter(g=>g.length);
       if(!groups.length){ throw new Error('Nenhuma ação visível para exportar com os filtros atuais.'); }
       for(let i=0;i<groups.length;i++){
@@ -1610,6 +1711,7 @@ cepRender();
    ABA 4 — AÇÕES
    Frente 1 · Logística Reversa — Matriz de Ganhos (Responsável: Carlos Beraldo · 06/05/2025)
    Frente 2 · Desconexão — Resumo das Melhorias STEFANINI (Jeferson Teixeira e Carlos Henrique · e-mail de 26/10/2026)
+   Frente 3 · Desconexão — Comunicado Reversa: Solicitações por Prioridade (Jeferson Teixeira · vigência 01/10/2026)
    ===================================================================== */
 const AC_RESP = 'Carlos Beraldo';
 const AC_DATA_DOC = '06/05/2025';
@@ -1700,22 +1802,69 @@ const DESC = [
 const DESC_RESUMO = 'A iniciativa vai além da automação de tarefas isoladas dentro do escopo de atuação da Stefanini, aumentando a integração, eficiência e escalabilidade.';
 const DESC_NOTA = 'Indicadores informados pelo time Stefanini no resumo de 26/10/2026. Referem-se ao processo de devolução de materiais (ciclo Woopi + ETMS e SLA dos registros) e não se confundem com o Tempo Total/SLA por CD das demais abas.';
 
+/* ---------- Frente 3 · Desconexão — Comunicado Reversa: Solicitações por Prioridade ---------- */
+const PRIO_RESP = 'Jeferson Teixeira';
+const PRIO_VIG = '01/10/2026';
+const PRIO_TEC1 = ['3.1 Wifi 5','3.1 Wifi 6','4K Tunner','Caixa de Som','GPON Wifi 5','GPON Wifi 6','GPON Wifi 7','IPTV'];
+const PRIO_TEC2 = ['HD 4K','HD NG/ 2018','Mesh Wifi 5','Mesh Wifi 6','Wifi 3.0 Dual'];
+const PRIO_TEC2_LOW = 'Demais Tecnologias (baixo giro)';
+const PRIO = [
+  { id:'P1', n:1, c:'#E30613', c2:'#B4050F', cap:'Separar', titulo:'Separação das solicitações no Qualitor', foco:'De 1 solicitação para 2 processos e NFs distintas',
+    lbl:{ganho:'O que muda', impacto:'Na prática'},
+    acoes:['Passam a ser abertos 2 processos distintos no Qualitor, com 2 notas fiscais de devolução de terminais separadas (uma para Terminais Prioridade 1 e outra para Terminais Prioridade 2).','1ª solicitação Qualitor (2 notas fiscais de devolução): NF 1 – Terminais Prioridade 1; NF 2 – todos os acessórios de todas as tecnologias.','2ª solicitação Qualitor (1 nota fiscal de devolução): NF 1 – Terminais Prioridade 2.'],
+    ganho:{ big:'1 → 2', detalhe:'Antes: uma solicitação Qualitor com terminais e acessórios. Agora: 2 processos no Qualitor + 2 notas fiscais de terminais distintas.' },
+    impactos:['Terminais Prioridade 1 e Prioridade 2 em processos e notas fiscais distintos','Os acessórios acompanham a 1ª solicitação (NF 2)'],
+    aplicada:'Aplicada — em vigor desde 01/10/2026', emAcao:[], emCurto:'',
+    topo:'De 1 para 2 processos no Qualitor, com NFs de terminais distintas', resumo:'de 1 solicitação Qualitor (terminais e acessórios) para 2 processos, com 2 notas fiscais de terminais distintas',
+    historia:'A mudança começa na solicitação: o que era uma única solicitação Qualitor com terminais e acessórios passa a ter 2 processos distintos — a 1ª com 2 notas fiscais de devolução (NF 1 de Terminais Prioridade 1 e NF 2 de acessórios) e a 2ª com 1 nota fiscal (NF 1 de Terminais Prioridade 2).' },
+  { id:'P2', n:2, c:'#D9480F', c2:'#F57C00', cap:'Classificar', titulo:'Classificação das tecnologias por prioridade', foco:'Tecnologias Prioridade 1 e Prioridade 2',
+    lbl:{ganho:'O que muda', impacto:'Na prática'},
+    acoes:['Terminais classificados em Tecnologias Prioridade 1 (8 tecnologias) e Tecnologias Prioridade 2 (5 tecnologias nominais + as demais de baixo giro).','Prioridade 1: NF 1 (terminais) na 1ª solicitação. Prioridade 2: NF 1 (terminais) na 2ª solicitação.'],
+    ganho:{ big:'8 + 5', detalhe:'tecnologias nominais por prioridade — Prioridade 1: 8; Prioridade 2: 5, mais as demais tecnologias (baixo giro).' },
+    impactos:['O terminal entra na 1ª ou na 2ª solicitação conforme a sua tecnologia','Demais tecnologias (baixo giro) ficam na Prioridade 2','Lista com a relação dos códigos dos materiais enviada junto ao comunicado'],
+    aplicada:'Aplicada — em vigor desde 01/10/2026', emAcao:[], emCurto:'',
+    topo:'Terminais classificados em Prioridade 1 (8) e Prioridade 2 (5 + baixo giro)', resumo:'8 tecnologias na Prioridade 1 e 5 nominais (mais as de baixo giro) na Prioridade 2',
+    historia:'Cada terminal é classificado pela tecnologia: a Prioridade 1 reúne 3.1 Wifi 5 e 6, 4K Tunner, Caixa de Som, GPON Wifi 5, 6 e 7 e IPTV; a Prioridade 2 reúne HD 4K, HD NG/2018, Mesh Wifi 5 e 6, Wifi 3.0 Dual e as demais tecnologias de baixo giro. A lista com os códigos dos materiais acompanha o comunicado.' },
+  { id:'P3', n:3, c:'#B4050F', c2:'#D4121D', cap:'Tratar os acessórios', titulo:'Regra dos acessórios', foco:'Sempre na 1ª solicitação e na NF 2',
+    lbl:{ganho:'O que muda', impacto:'Na prática'},
+    acoes:['Todos os acessórios, independentemente da tecnologia, são incluídos exclusivamente na 1ª solicitação e na NF 2 (acessórios).'],
+    ganho:{ big:'NF 2', detalhe:'concentra todos os acessórios de todas as tecnologias, exclusivamente na 1ª solicitação Qualitor.' },
+    impactos:['A regra independe da tecnologia do terminal','Prioridade 1: NF 1 = terminais; NF 2 = acessórios (todas as tecnologias)'],
+    aplicada:'Aplicada — em vigor desde 01/10/2026', emAcao:[], emCurto:'',
+    topo:'Todos os acessórios na NF 2 da 1ª solicitação', resumo:'todos os acessórios, de qualquer tecnologia, na NF 2 da 1ª solicitação',
+    historia:'Os acessórios têm regra própria: todos, independentemente da tecnologia, entram exclusivamente na 1ª solicitação e na NF 2 — nunca na 2ª solicitação.' },
+  { id:'P4', n:4, c:'#8E040C', c2:'#B4050F', cap:'Otimizar', titulo:'Objetivo e material de apoio', foco:'Internalização, triagem, reparo e retorno a campo',
+    lbl:{ganho:'Vigência', impacto:'Objetivo da mudança'},
+    acoes:['Comunicado “Reversa – Solicitações por Prioridade”: a partir de 01/10/2026, a separação das reversas, solicitações e emissões das NFs passa pelas mudanças descritas.','Envio, junto ao comunicado, da lista com a relação dos códigos dos materiais.'],
+    ganho:{ big:'01/10/2026', detalhe:'início da nova separação das reversas, solicitações e emissões das NFs.' },
+    impactos:['Otimização dos processos de internalização','Maior agilidade nos processos de triagem, reparo e retorno dos equipamentos a campo','Colaboração de todos: “Contamos com a colaboração de todos!”'],
+    aplicada:'Aplicada — em vigor desde 01/10/2026', emAcao:[], emCurto:'',
+    topo:'Mais agilidade em triagem, reparo e retorno a campo (desde 01/10/2026)', resumo:'em vigor desde 01/10/2026, para otimizar a internalização e dar agilidade à triagem, ao reparo e ao retorno a campo',
+    historia:'O objetivo é a otimização dos processos de internalização e maior agilidade nos processos de triagem, reparo e retorno desses equipamentos a campo. A mudança vale desde 01/10/2026 e conta com a colaboração de todos.' }
+];
+const PRIO_NOTA = 'O comunicado não informa metas, prazos adicionais nem resultados medidos desta mudança: os ganhos descritos são o objetivo declarado (otimização e agilidade) e a regra de funcionamento. Todas as ações constam como em vigor desde 01/10/2026; não há item em andamento no comunicado.';
+
 const acEl = id => document.getElementById(id);
 let acBase = 'Todas';
 function acNorm(s){ return String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
 function acOpts(){ return { acao:acEl('aAcao').value, st:acEl('aStatus').value, camada:acEl('aCamada').value, vis:acEl('aVis').value, q:acNorm(String(acEl('aBusca').value||'').trim()) }; }
 function acTxtM(a){ return [a.titulo,a.foco,a.cap,a.acoes.join(' '),a.ganho.big||'',a.ganho.detalhe,a.impactos.join(' ')].join(' '); }
 function acTxtD(p){ return [p.titulo,p.foco,p.cap,p.acoes.join(' '),p.ganho.big||'',p.ganho.detalhe,p.impactos.join(' '),p.aplicada,p.emAcao.join(' '),p.id==='D1'?DESC_CD.map(r=>[r.cd,r.cod,r.resp,r.data,r.st].join(' ')).join(' '):''].join(' '); }
+function acTxtP(p){ return [acTxtD(p),p.id==='P2'?PRIO_TEC1.concat(PRIO_TEC2,[PRIO_TEC2_LOW]).join(' '):''].join(' '); }
 function acListM(o){
-  if(o.acao==='D' || /^D\d$/.test(o.acao)) return [];
+  if(o.acao==='D' || o.acao==='P' || /^[DP]\d$/.test(o.acao)) return [];
   if(o.st==='acao') return [];            /* as ações da Matriz são iniciativas já implementadas */
   return ACOES.filter(a=> (o.acao==='Todas'||o.acao==='M'||o.acao===String(a.id)) && (!o.q || acNorm(acTxtM(a)).includes(o.q)));
 }
 function acListD(o){
-  if(o.acao==='M' || /^\d$/.test(o.acao)) return [];
+  if(o.acao==='M' || o.acao==='P' || /^\d$/.test(o.acao) || /^P\d$/.test(o.acao)) return [];
   return DESC.filter(p=> (o.acao==='Todas'||o.acao==='D'||o.acao===p.id) && (o.st!=='acao' || p.emAcao.length>0) && (!o.q || acNorm(acTxtD(p)).includes(o.q)));
 }
-function acOnAcao(){ const v=acEl('aAcao').value; if(v==='Todas'||v==='M'||v==='D') acBase=v; acRender(); }
+function acListP(o){
+  if(o.acao==='M' || o.acao==='D' || /^\d$/.test(o.acao) || /^D\d$/.test(o.acao)) return [];
+  return PRIO.filter(p=> (o.acao==='Todas'||o.acao==='P'||o.acao===p.id) && (o.st!=='acao' || p.emAcao.length>0) && (!o.q || acNorm(acTxtP(p)).includes(o.q)));
+}
+function acOnAcao(){ const v=acEl('aAcao').value; if(v==='Todas'||v==='M'||v==='D'||v==='P') acBase=v; acRender(); }
 function acClear(){ acBase='Todas'; acEl('aAcao').value='Todas'; acEl('aStatus').value='Todos'; acEl('aCamada').value='Todas'; acEl('aVis').value='cards'; acEl('aBusca').value=''; acRender(); }
 function acPick(id){ id=String(id); const s=acEl('aAcao'); s.value = (s.value===id) ? acBase : id; acRender(); }
 function acShow(o,k){ return o.camada==='Todas' || o.camada===k; }
@@ -1767,21 +1916,22 @@ function acGainHtml(a){
   return `<div class="ac-gain"><span class="ac-gain-ico">${a.ico}</span>${a.ganho.detalhe}</div>`;
 }
 function acCardHtml(a,o,extra){
-  const c = a.c || '#E30613', c2 = a.c2 || '#555';
+  const c = a.c || '#E30613', c2 = a.c2 || '#555'; const lb = a.lbl || {};
   return `<div class="ac-card" style="--c:${c};--c2:${c2};">
-    <div class="ac-head"><div class="ac-num">${a.id==null?a.n:(typeof a.id==='number'?a.id:a.n)}</div><div><div class="ac-ttl">${a.titulo}</div><div class="ac-foco">${a.foco}</div></div></div>
+    <div class="ac-head"><div class="ac-num">${typeof a.id==='number'?a.id:a.n}</div><div><div class="ac-ttl">${a.titulo}</div><div class="ac-foco">${a.foco}</div></div></div>
     <div class="ac-body">
       ${acShow(o,'acoes')?`<div class="ac-sec"><h5>Principais ações</h5><ul>${a.acoes.map(x=>`<li>${x}</li>`).join('')}</ul></div>`:''}
-      ${acShow(o,'ganho')?`<div class="ac-sec"><h5>Principal ganho</h5>${acGainHtml(a)}</div>`:''}
-      ${acShow(o,'impacto')?`<div class="ac-sec"><h5>Impacto no negócio</h5><ul class="ac-imp">${a.impactos.map(x=>`<li>${x}</li>`).join('')}</ul></div>`:''}
+      ${acShow(o,'ganho')?`<div class="ac-sec"><h5>${lb.ganho||'Principal ganho'}</h5>${acGainHtml(a)}</div>`:''}
+      ${acShow(o,'impacto')?`<div class="ac-sec"><h5>${lb.impacto||'Impacto no negócio'}</h5><ul class="ac-imp">${a.impactos.map(x=>`<li>${x}</li>`).join('')}</ul></div>`:''}
       ${extra||''}
     </div></div>`;
 }
 function acMatrixTable(list,o,withStatus){
+  const lb = (list[0] && list[0].lbl) || {};
   const th=['<th class="l" style="width:20%">Ação</th>'];
   if(acShow(o,'acoes')) th.push('<th class="l">Principais ações</th>');
-  if(acShow(o,'ganho')) th.push('<th class="l" style="width:20%">Principal ganho</th>');
-  if(acShow(o,'impacto')) th.push('<th class="l" style="width:22%">Impacto no negócio</th>');
+  if(acShow(o,'ganho')) th.push(`<th class="l" style="width:20%">${lb.ganho||'Principal ganho'}</th>`);
+  if(acShow(o,'impacto')) th.push(`<th class="l" style="width:22%">${lb.impacto||'Impacto no negócio'}</th>`);
   if(withStatus) th.push('<th class="l" style="width:18%">Status</th>');
   const rows=list.map(a=>{
     const num = typeof a.id==='number' ? a.id : a.n;
@@ -1806,7 +1956,7 @@ function acTop(list){
     <div class="ac-concl-meta"><div>👤 <b>Responsável:</b> ${AC_RESP}</div><div>📅 <b>Data da matriz:</b> ${AC_DATA_DOC}</div><div class="ac-sign">Resultados que conectam o amanhã.</div></div>`;
 }
 
-/* ---------- Frente 2 · Desconexão ---------- */
+/* ---------- Frente 2 · Desconexão — Melhorias Stefanini ---------- */
 function acdChips(p,o){
   const out=[];
   if(o.st!=='acao') out.push(`<span class="acd-chip ok">✔ ${p.aplicada}</span>`);
@@ -1888,18 +2038,77 @@ function acdTop(list){
     <div class="ac-concl-meta"><div>👤 <b>Responsáveis:</b> ${DESC_RESP}</div><div>📅 <b>Resumo enviado em:</b> ${DESC_DATA_DOC} (Carlos Henrique)</div><div>📄 <b>Fonte:</b> e-mail “Resumo das Melhorias STEFANINI”</div></div>`;
 }
 
+/* ---------- Frente 3 · Desconexão — Solicitações por Prioridade ---------- */
+function acpKpis(list,o){
+  const has=id=>list.some(p=>p.id===id); const cards=[];
+  cards.push({l:'Vigência', v:PRIO_VIG, s:'Nova separação das reversas, solicitações e emissões das NFs.', c:'green'});
+  if(has('P1')){
+    cards.push({l:'Processos no Qualitor', v:'2', s:'Antes: 1 solicitação com terminais e acessórios.', c:'red'});
+    cards.push({l:'Notas fiscais de devolução', v:'3', s:'2 de terminais (Prioridade 1 e 2) + 1 de acessórios (NF 2).', c:''});
+  }
+  if(has('P2')){
+    cards.push({l:'Tecnologias Prioridade 1', v:String(PRIO_TEC1.length), s:'Terminais na NF 1 da 1ª solicitação.', c:''});
+    cards.push({l:'Tecnologias Prioridade 2', v:PRIO_TEC2.length+'+', s:`${PRIO_TEC2.length} nominais + demais (baixo giro), na NF 1 da 2ª solicitação.`, c:''});
+  }
+  if(has('P3')) cards.push({l:'Acessórios', v:'NF 2', s:'Todos, de todas as tecnologias, só na 1ª solicitação.', c:''});
+  acKpiGrid(acEl('acpKpis'),cards);
+}
+function acpRail(list){
+  const ids=new Set(list.map(p=>p.id)); const sel=acEl('aAcao').value;
+  acEl('acpRail').innerHTML = PRIO.map(p=>{
+    const cls = (sel===p.id) ? 'on' : (ids.has(p.id) ? '' : 'dim');
+    return `<div role="button" tabindex="0" class="ac-step ${cls}" onclick="acPick('${p.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();acPick('${p.id}');}" title="${p.titulo}"><div class="n">${p.n}</div><div class="t">${p.cap}</div><div class="c">${p.titulo}</div></div>`;
+  }).join('');
+}
+function acpStory(list){
+  const el=acEl('acpStory');
+  if(list.length===1){
+    const p=list[0];
+    el.innerHTML=`<h4>Passo ${p.n} · ${p.cap}</h4><p><b>${p.titulo}</b> — ${p.foco}.</p><p>${p.historia}</p>
+      <p><b>${(p.lbl&&p.lbl.impacto)||'Na prática'}:</b> ${p.impactos.map(i=>i.charAt(0).toLowerCase()+i.slice(1)).join('; ')}.</p>`;
+    return;
+  }
+  const full=list.length===PRIO.length;
+  el.innerHTML=`<h4>${full?'A narrativa completa':'Passos da seleção'}</h4>
+    <p>${full?'<b>Uma solicitação vira dois processos: separar, classificar, tratar os acessórios e otimizar.</b> ':''}A mudança em vigor desde ${PRIO_VIG} reorganiza as reversas pelo critério de prioridade da tecnologia, com os acessórios sempre na 1ª solicitação (NF 2).</p>
+    <ol>${list.map(p=>`<li><b>${p.cap}</b> — ${p.titulo}: ${p.resumo}.</li>`).join('')}</ol>
+    ${full?`<p style="margin-top:8px;"><b>Objetivo:</b> otimização dos processos de internalização e maior agilidade na triagem, no reparo e no retorno dos equipamentos a campo.</p>`:''}`;
+}
+function acpFlow(list){ const show=list.some(p=>p.id==='P1'||p.id==='P3'); acEl('panel-acp-flow').style.display = show ? '' : 'none'; }
+function acpTech(list,o){
+  const show=list.some(p=>p.id==='P2'); const panel=acEl('panel-acp-tech'); panel.style.display = show ? '' : 'none'; if(!show) return;
+  const hit=t=> o.q && acNorm(t).includes(o.q);
+  const chips=(arr,extra)=>arr.map(t=>`<span class="acp-chip ${hit(t)?'hit':''}">${t}</span>`).join('')+(extra?`<span class="acp-chip low ${hit(extra)?'hit':''}">${extra}</span>`:'');
+  const nHit = [...PRIO_TEC1,...PRIO_TEC2,PRIO_TEC2_LOW].filter(hit).length;
+  acEl('acpTechLabel').textContent = o.q && nHit ? `| ${nHit} tecnologia(s) encontrada(s)` : '';
+  acEl('acpTech').innerHTML=`<div class="acp-tech">
+    <div class="acp-tcol p1"><div class="acp-th">★ Tecnologias Prioridade 1</div><div class="acp-chips">${chips(PRIO_TEC1)}</div><div class="acp-rule"><span>NF 1</span> (terminais) · acessórios: <span>NF 2</span> (todas as tecnologias)</div></div>
+    <div class="acp-tcol p2"><div class="acp-th">★★ Tecnologias Prioridade 2</div><div class="acp-chips">${chips(PRIO_TEC2,PRIO_TEC2_LOW)}</div><div class="acp-rule"><span>NF 1</span> (terminais) na 2ª solicitação Qualitor</div></div>
+  </div>`;
+}
+function acpCards(list,o){
+  const el=acEl('acpCards'); acEl('acpCardsLabel').textContent='| '+list.length+' de '+PRIO.length+' ações';
+  if(o.vis==='matriz'){ el.innerHTML=acMatrixTable(list,o,true); return; }
+  el.innerHTML=`<div class="ac-grid ${list.length===1?'single':''}">${list.map(p=>acCardHtml(p,o,`<div class="ac-sec"><h5>Status</h5>${acdChips(p,o)}</div>`)).join('')}</div>`;
+}
+function acpTop(list){
+  const ids=new Set(list.map(p=>p.id)); const sel=acEl('aAcao').value;
+  acEl('acpTop').innerHTML=PRIO.map(p=>`<div class="ac-topi ${(sel===p.id)?'on':(ids.has(p.id)?'':'dim')}" style="--c:${p.c}" onclick="acPick('${p.id}')"><span class="n">${p.n}</span><span>${p.topo}</span></div>`).join('');
+  acEl('acpConcl').innerHTML=`<div class="ac-concl-text"><h4>Por que mudar</h4><p style="margin:0 0 6px;"><b>A mudança visa à otimização dos processos de internalização e a maior agilidade nos processos de triagem, reparo e retorno desses equipamentos a campo.</b></p><p style="margin:0;font-size:12.5px;color:var(--gray-mid);">${PRIO_NOTA}</p></div>
+    <div class="ac-concl-meta"><div>👤 <b>Responsável:</b> ${PRIO_RESP}</div><div>📅 <b>Em vigor desde:</b> ${PRIO_VIG}</div><div>📄 <b>Fonte:</b> Comunicado “Reversa – Solicitações por Prioridade”</div></div>`;
+}
+
 function acRender(){
-  const o=acOpts(); const lm=acListM(o), ld=acListD(o);
-  const both = lm.length>0 && ld.length>0;
-  acEl('acMatrizWrap').style.display = lm.length ? '' : 'none';
-  acEl('acDescWrap').style.display = ld.length ? '' : 'none';
-  acEl('acDivM').style.display = both ? '' : 'none';
-  acEl('acDivD').style.display = both ? '' : 'none';
-  acEl('acEmpty').style.display = (!lm.length && !ld.length) ? '' : 'none';
-  acEl('acOwnerM').style.display = (lm.length || !ld.length) ? '' : 'none';
-  acEl('acOwnerD').style.display = (ld.length || !lm.length) ? '' : 'none';
+  const o=acOpts(); const lm=acListM(o), ld=acListD(o), lp=acListP(o);
+  const nVis=(lm.length?1:0)+(ld.length?1:0)+(lp.length?1:0);
+  const set=(id,on)=>{ acEl(id).style.display = on ? '' : 'none'; };
+  set('acMatrizWrap',lm.length>0); set('acDescWrap',ld.length>0); set('acPrioWrap',lp.length>0);
+  set('acDivM',nVis>1 && lm.length>0); set('acDivD',nVis>1 && ld.length>0); set('acDivP',nVis>1 && lp.length>0);
+  set('acEmpty',nVis===0);
+  set('acOwnerM',lm.length>0||nVis===0); set('acOwnerD',ld.length>0||nVis===0); set('acOwnerP',lp.length>0||nVis===0);
   if(lm.length){ acKpis(lm); acRail(lm); acStory(lm); acCards(lm,o); acTop(lm); }
   if(ld.length){ acdKpis(ld,o); acdRail(ld); acdStory(ld,o); acdCron(ld,o); acdCards(ld,o); acdTop(ld); }
+  if(lp.length){ acpKpis(lp,o); acpRail(lp); acpStory(lp); acpFlow(lp); acpTech(lp,o); acpCards(lp,o); acpTop(lp); }
 }
 acRender();
 </script>
